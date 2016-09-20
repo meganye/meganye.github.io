@@ -1,0 +1,60 @@
+body {
+	margin:0px;
+}
+
+h1 {
+	font-family:'Rock Salt', cursive;
+	font-size: 40px;
+	text-align:center;
+	font-weight:200;
+}
+
+.nav {
+	height:50px;
+	background-color:#444;
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+.nav a,
+.nav li {
+	display:inline-block;
+	padding:15px;
+	text-decoration:none;
+	color:#FFF;
+	font-family:'Muli', sans-serif;
+	font-weight:500;
+}
+
+.nav a:hover {
+	background-color:#00FFFF;
+	color:black;
+}
+
+#content {
+	position:relative;
+	padding-top:15px;
+	width:500px;
+	margin:auto;
+}
+
+.overview {
+	padding-top:50px;
+	font-family: 'Open Sans', sans-serif;
+	line-height:175%;
+}
+
+.usage {
+	padding-top:50px; 
+	line-height:150%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.example {
+	margin:50px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+

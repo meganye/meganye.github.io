@@ -1,0 +1,63 @@
+#clockwrap {
+    height: 400px;
+    width: 400px;
+    margin-top:200px;
+    margin-left:250px;
+}
+
+#head {
+    height:400px;
+    width:400px;
+    border-radius:50%;
+    background-color: #fff2e6;
+    position:absolute;
+    z-index:-99;
+}
+
+#hair-scar-glasses {
+    height:800px;
+    width:800px;
+    margin-top:-140px;
+    margin-left:-190px;
+}
+
+#eyes {
+    height:30px;
+    margin-left:10px;
+    margin-top:-450px;
+}
+
+.eye {
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    background-color:black;
+    display:inline-block;
+    border:2px solid green;
+}
+
+#lefteye {
+    margin-left:100px;
+}
+
+#righteye {
+    margin-left:100px;
+    border:2px solid green;
+}
+
+.sparkle {
+    height:5px;
+    width:5px;
+    border-radius:50%;
+    background-color:white;
+    display:inline-block;
+    margin-left:8px;
+}
+
+#time {
+    z-index:1000;
+    font-size:60px;
+    color:green;
+    margin-top:-375px;
+    margin-left:300px;
+}

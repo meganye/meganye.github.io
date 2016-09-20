@@ -1,0 +1,104 @@
+body {
+	margin:0;
+}
+
+#top-wrap {
+	width:100%;
+	height:200px;
+	border:1px dashed red;
+}
+
+	#kaavya {
+		width:550px;
+		height:190px;
+		border:5px solid black;
+		font-family: 'Poiret One', cursive;
+		font-size:85px;
+		margin-top:0px;
+		margin-left:3%;
+	}
+
+	#nav {
+		width:906px;
+		height:50px;
+		border:1px dashed black;
+		display:block;
+		margin-top:-200px;
+		margin-left:45%;
+	}
+
+		.block {
+			width:150px;
+			height:50px;
+			margin-left:35px;
+			display:inline-block;
+			color:white;
+			font-family: 'Oxygen', sans-serif;
+			font-size:20px;
+		}
+
+		.block #home {
+			margin-left:0px;
+		}
+
+		.block p {
+			margin:0;			
+			padding-top:12px;
+			padding-left:40px;
+		}
+
+		.block a {
+			text-decoration:none;
+			color:white;
+		}
+
+		#home {
+			background-color:#3f3f3f;
+			margin-left:0px; /* overwrite .block margin-left */
+		}
+
+		#portfolio {
+			background-color:#636363;
+		}
+
+		#resume {
+			background-color:#969696;
+		}
+
+		#bio {
+			background-color:#c3c3c3;
+		}
+
+		#bio a {
+			color:black;
+		}
+
+		#contact {
+			background-color:#d9d9d9;
+		}
+
+		#contact a {
+			color:black;
+		}
+
+		.block:hover,
+		#home:hover,
+		#portfolio:hover,
+		#resume:hover,
+		#bio:hover,
+		#contact:hover { /* background color not changing into white with just .block:hover */
+			background-color:white;
+			box-shadow:inset 0px 0px 0px 5px black;
+		}
+
+		#home a:hover,
+		#portfolio a:hover,
+		#resume a:hover {
+			color:black;
+		}
+
+#footer {
+	width:100%;
+	height:55px;
+	border:1px dashed orange;
+}

@@ -1,0 +1,112 @@
+html {
+	width:1900px;
+	height:800px;
+}
+
+body {
+	height:800px;
+	margin: 0px;
+	background-image: url("Images/youtube-background.png");
+	/*Image from YouTube's Google+ page*/
+}
+
+#wrap {
+	margin-top:0px;
+	padding-top:0px;
+}
+
+#top {
+	width:150px;
+	height:30px;
+	float:left;
+	margin-top:25px;
+	margin-left:825px;
+}
+
+#top button {
+	font-family: 'Architects Daughter', cursive;
+	font-size:16px;
+	background-color:white;
+	height:30px;
+	margin-top:-125px;
+}
+
+#top button a {
+	text-decoration:none;
+}
+
+#top #upload {
+	border:3px solid #66ffcc;
+	float:left;
+}
+
+#top #upload:hover {
+	background-color:#e5fff7;
+}
+
+#top #login {
+	border:3px solid #00ffff;
+	float:right;
+}
+
+#top #login:hover {
+	background-color:#e5ffff;
+}
+#center {
+	border: 3px solid red;
+	border-radius:400px;
+	width: 500px;
+	height: 500px;
+	margin-left:650px;
+	margin-top:125px;
+	background: white;
+}
+
+#center img {
+	position:relative;
+	padding-top:100px;
+	width:500px;
+	height:220px;
+}
+
+#search {
+	position:relative;
+	margin-top:25px;
+	margin-left:725px;
+	height:30px;
+	vertical-align:middle;
+}
+
+#search input {
+	width:300px;
+	font-family:'Architects Daughter', cursive;
+	font-size:16px;
+	height:20px;
+	vertical-align:middle;
+}
+
+#search img {
+	vertical-align:middle;
+	height:21px;
+	width:21px;
+}
+
+#footer {
+	width:1900px;
+	height:50px;
+	margin-top:400px;
+	background-color:black;
+	color:white;
+}
+
+#footer p {
+	font-family:'Architects Daughter', cursive;
+	font-size:20px;
+	position:absolute;
+	margin-top:12px;
+}
+
+#footer a {
+	color:white;
+	text-decoration:none;
+}

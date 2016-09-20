@@ -1,0 +1,136 @@
+body {
+	margin-top:0px;
+	margin-left:50px;
+	margin-right:50px;
+	margin-bottom:0px;
+	height:1000px;
+}
+
+.edge-border {
+	margin-bottom:0px;
+	height:1000px;
+	width:50px;
+	background-color:#94ffff; /* mint #66ffe0 */
+	position:relative;
+}
+
+#left-border {
+	float:left;
+}
+
+#right-border {
+	float:right;
+}
+
+#colorbox-container {
+	margin:auto;
+	background-color:white; /* yellow: #ffffe6 */
+	height:1000px;
+	width:80%;
+	/*border:1px solid black; */
+}
+
+.colorbox {
+	height:250px;
+	width:100%;
+	margin:auto;
+}
+
+#aqua {
+	background-color:#94ffff; 
+}
+
+#megan {
+	margin-top:0px;
+	border:1px dashed #94ffff;
+	font-size:56px;
+	padding-left:40%;
+	padding-top:30px;
+	font-family:'Raleway', sans-serif;
+}
+
+#hexcolors {
+	width:100%;
+	height:100px;
+}
+
+ul {
+	list-style-type:none;
+}
+
+li {
+	display:inline;
+	font-family:'Raleway', sans-serif;
+	font-size:24px;
+	margin-right:5%;
+	border:1px solid gray;
+}
+
+#hex-aqua {
+	margin-left:15%;
+}
+
+#hex-purple {
+	background-color:#eeccff;
+}
+
+#hex-pink {
+	background-color:#ffcce6;
+}
+#hex-green {
+	background-color:#ccffcc;
+}
+
+#font {
+	border:none;
+}
+
+#purple {
+	background-color:#eeccff;
+}
+
+#pink {
+	background-color:#ffcce6;
+}
+#green {
+	background-color:#ccffcc;
+}
+
+img {
+	height:246px;
+	border:2px solid black
+}
+
+#bread {
+	margin-left:10%;
+}
+
+#onering {
+	float:right;
+	margin-right:10%;
+}
+
+#robot {
+	margin-left:10%;
+}
+
+.music {
+	font-family:"Raleway", sans-serif;
+	font-size:16px;
+}
+
+#lala {
+	margin-top:10%;
+	float:right;
+	margin-right:5%;
+	width:20%;
+}
+
+#lala a:link, a:visited {
+	color:black;
+}
+
+#lala a:hover {
+	color:#459d43; /* gamma sector */
+}
+
