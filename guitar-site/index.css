@@ -18,6 +18,10 @@
       font-weight: 400;
       margin-bottom: 30px;
   }
+
+  li {
+    list-style:none;
+  }
   .pushdown {
     padding-bottom:20px;
     border-bottom:2px solid gray;
@@ -39,7 +43,7 @@
     height:550px;
   }
   .bg-grey {
-      background-color: #f6f6f6;
+      background-color: #eeebde;/* change to pale gold */
   }
   .logo-small {
       color: #f4511e;
